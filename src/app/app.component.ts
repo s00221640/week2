@@ -17,4 +17,8 @@ export class AppComponent {
     'Learn Redux'
   ];
   thingsCompleted=[];
+
+  TaskSummary():string {
+    return '${this.thingsToDo.lenth} to do / ${this.thingsCompleted.length} completed';
+  }
 }
