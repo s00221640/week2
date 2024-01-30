@@ -16,4 +16,5 @@ export class AppComponent {
     'Learn Angular',
     'Learn Redux'
   ];
+  thingsCompleted=[];
 }
