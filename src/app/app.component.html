@@ -1,6 +1,7 @@
-<h1>Hello</h1>
+<h1>Hello, s00221640 Jack Tierney</h1>
 <p *ngFor="let item of thingsToDo;
            let i=index;
            let rowOne=odd;
            let rowTwo=even;"
-           [ngClass]="{ odd_row:rowOne, even _row:rowTwo}">({{i}}) {{item}}</p>
+           [ngClass]="{ odd_row:rowOne, even_row:rowTwo}">({{i}}) {{item}}</p>
+<p *ngIf="thingsCompleted.length==0">Nothing Completed Yet</p>
